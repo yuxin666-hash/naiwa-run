@@ -59,7 +59,7 @@ if __name__ == "__main__":
     pyw = os.path.join(os.path.dirname(sys.executable), "pythonw.exe")
     if not os.path.exists(pyw):
         pyw = sys.executable
-    lnk = os.path.join(root, "奶蛙桌宠.lnk")
+    lnk = os.path.join(root, "奶蛙快跑.lnk")
     make_shortcut(lnk, pyw, f'"{os.path.join(root, "app", "main.py")}"', root,
-                  os.path.join(root, "assets", "tray.ico"), "奶蛙桌宠", 7)
+                  os.path.join(root, "assets", "tray.ico"), "奶蛙快跑", 7)
     print("ok", os.path.exists(lnk), lnk)

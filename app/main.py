@@ -1,4 +1,4 @@
-"""奶蛙桌宠 - 主程序"""
+"""奶蛙快跑 - 主程序"""
 import ctypes
 import math
 import os

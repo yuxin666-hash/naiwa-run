@@ -218,7 +218,7 @@ class LayeredWindow:
 
     _class_atom = None
 
-    def __init__(self, w, h, x, y, on_message, title="奶蛙桌宠"):
+    def __init__(self, w, h, x, y, on_message, title="奶蛙快跑"):
         self.on_message = on_message
         self._proc = WNDPROC(self._wndproc)
         self.w, self.h = int(w), int(h)
@@ -307,7 +307,7 @@ class LayeredWindow:
 
 
 class Tray:
-    def __init__(self, hwnd, icon_path, tip="奶蛙桌宠"):
+    def __init__(self, hwnd, icon_path, tip="奶蛙快跑"):
         self.hwnd = hwnd
         self.nid = NOTIFYICONDATAW()
         self.nid.cbSize = ctypes.sizeof(NOTIFYICONDATAW)
