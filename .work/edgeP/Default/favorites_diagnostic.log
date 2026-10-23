@@ -1,0 +1,18 @@
+2026-10-23 09:07:41.921: [INFO] CurrentProfilePath: D:\Codex\奶蛙桌宠\.work\edgeP\Default
+2026-10-23 09:07:41.921: [INFO] Profiles total count: 1
+2026-10-23 09:07:41.921: [INFO] Profile: name=用户配置 1 path=D:\Codex\奶蛙桌宠\.work\edgeP\Default lastActive=2026-10-23T09:07:41.901Z
+2026-10-23 09:07:41.921: [INFO] LastUsedProfileDir: D:\Codex\奶蛙桌宠\.work\edgeP\Default
+2026-10-23 09:07:41.921: [INFO] MostRecentlyActiveProfile: name=用户配置 1 path=D:\Codex\奶蛙桌宠\.work\edgeP\Default lastActive=2026-10-23T09:07:41.901Z
+2026-10-23 09:07:41.921: [INFO] OnDoneLoading sync enabled: 0
+2026-10-23 09:07:41.921: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-23 09:07:41.921: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-23 09:07:41.921: [INFO] BookmarksSnapshot Startup total=2 bar=2 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-23 09:07:41.998: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-10-23 09:07:42.212: [INFO] VisibilityChanged: 0
+2026-10-23 09:07:43.888: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-10-23 09:07:43.892: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-10-23 09:07:43.896: [INFO] Primary account changed.
+2026-10-23 09:07:43.896: [INFO] OnPrimaryAccountChanged PrimaryAccountChangeEvent::Type::kSet
+2026-10-23 09:07:43.910: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-10-23 09:07:43.929: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-10-23 09:07:45.575: [INFO] BookmarksSnapshot Shutdown total=2 bar=2 other=0 mobile=0 showBar=0 showBarNTP=1

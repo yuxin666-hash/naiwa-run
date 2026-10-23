@@ -1,0 +1,32 @@
+<!DOCTYPE html><html><body><pre id="o" style="font:12px monospace;white-space:pre-wrap"></pre>
+<script src="../奶蛙快跑/vendor/three.min.js"></script>
+<script src="../奶蛙快跑/vendor/GLTFLoader.js"></script>
+<script src="../奶蛙快跑/vendor/meshopt_decoder.js"></script>
+<script src="../奶蛙快跑/assets/frog-model.js"></script>
+<script>
+const out = [];
+function log(s){ out.push(s); document.getElementById('o').textContent = out.join('\n'); }
+const bin = Uint8Array.from(atob(window.FROG_GLB_B64), c=>c.charCodeAt(0)).buffer;
+log('GLB bytes: ' + bin.byteLength);
+const loader = new THREE.GLTFLoader();
+loader.setMeshoptDecoder(MeshoptDecoder);
+loader.parse(bin, '', (g) => {
+  let mesh = null;
+  g.scene.traverse(o => { if (o.isMesh && !mesh) mesh = o; });
+  const p = mesh.geometry.attributes.position;
+  log('attr type: ' + p.constructor.name + ', normalized: ' + p.normalized + ', count: ' + p.count);
+  let mn=[1e9,1e9,1e9], mx=[-1e9,-1e9,-1e9];
+  for (let i=0;i<p.count;i++){
+    for (let d=0;d<3;d++){
+      const v = d===0?p.getX(i):d===1?p.getY(i):p.getZ(i);
+      if(v<mn[d])mn[d]=v; if(v>mx[d])mx[d]=v;
+    }
+  }
+  log('raw bbox min ' + mn.map(v=>v.toFixed(3)) + ' max ' + mx.map(v=>v.toFixed(3)));
+  log('mesh matrix: ' + JSON.stringify(mesh.matrix.elements.map(r=>Array.from(r).map(v=>+v.toFixed(6)))));
+  const s = new THREE.Vector3(); mesh.matrix.decompose(new THREE.Vector3(), new THREE.Quaternion(), s);
+  log('node scale: ' + s.toArray().map(v=>v.toFixed(6)));
+  log('index: ' + (mesh.geometry.index ? mesh.geometry.index.count/3 + ' tris' : 'NONE'));
+  log('attrs: ' + Object.keys(mesh.geometry.attributes).join(','));
+}, e => log('parse err: ' + e));
+</script></body></html>

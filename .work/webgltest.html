@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><body style="margin:0;background:#222">
+<canvas id="c"></canvas>
+<div id="t" style="position:fixed;top:0;left:0;color:#fff;font:16px monospace"></div>
+<script src="../奶蛙快跑/vendor/three.min.js"></script>
+<script>
+const r = new THREE.WebGLRenderer({canvas:document.getElementById('c')});
+r.setSize(400,300);
+const sc = new THREE.Scene(); sc.background = new THREE.Color(0x335577);
+const cam = new THREE.PerspectiveCamera(60, 4/3, .1, 100); cam.position.z = 4;
+const g = new THREE.SphereGeometry(1, 32, 24);
+const m = new THREE.MeshStandardMaterial({color:0xffcc33, roughness:.4});
+sc.add(new THREE.Mesh(g,m));
+sc.add(new THREE.DirectionalLight(0xffffff,1.2).translateY(3).translateZ(3));
+sc.add(new THREE.AmbientLight(0xffffff,.6));
+r.render(sc,cam);
+document.getElementById('t').textContent = 'webgl:' + r.getContext().getParameter(r.getContext().VERSION) + ' ok';
+</script></body></html>

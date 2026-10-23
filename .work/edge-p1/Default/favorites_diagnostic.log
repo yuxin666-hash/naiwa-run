@@ -1,0 +1,35 @@
+2026-10-23 09:09:47.637: [INFO] CurrentProfilePath: D:\Codex\奶蛙桌宠\.work\edge-p1\Default
+2026-10-23 09:09:47.637: [INFO] Profiles total count: 1
+2026-10-23 09:09:47.637: [INFO] Profile: name=用户配置 1 path=D:\Codex\奶蛙桌宠\.work\edge-p1\Default lastActive=2026-10-23T09:09:47.616Z
+2026-10-23 09:09:47.637: [INFO] LastUsedProfileDir: D:\Codex\奶蛙桌宠\.work\edge-p1\Default
+2026-10-23 09:09:47.637: [INFO] MostRecentlyActiveProfile: name=用户配置 1 path=D:\Codex\奶蛙桌宠\.work\edge-p1\Default lastActive=2026-10-23T09:09:47.616Z
+2026-10-23 09:09:47.637: [INFO] OnDoneLoading sync enabled: 0
+2026-10-23 09:09:47.637: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-23 09:09:47.637: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-23 09:09:47.637: [INFO] BookmarksSnapshot Startup total=2 bar=2 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-23 09:09:47.721: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-10-23 09:09:47.917: [INFO] VisibilityChanged: 0
+2026-10-23 09:09:48.431: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-10-23 09:09:48.435: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-10-23 09:09:48.438: [INFO] Primary account changed.
+2026-10-23 09:09:48.438: [INFO] OnPrimaryAccountChanged PrimaryAccountChangeEvent::Type::kSet
+2026-10-23 09:09:48.449: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-10-23 09:09:48.470: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-10-23 09:09:51.959: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-23 09:09:51.960: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-23 09:09:51.960: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-23 09:09:51.960: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-23 09:09:51.960: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-23 09:09:51.960: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-23 09:09:51.961: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-23 09:09:51.961: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-23 09:09:51.961: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-23 09:09:51.961: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-23 09:09:51.962: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-23 09:09:51.962: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-23 09:09:51.962: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-23 09:09:51.962: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-23 09:09:51.962: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-23 09:09:51.963: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-23 09:09:51.971: [INFO] BookmarkBarPrefChanged showBar=0 showBarNTP=1
+2026-10-23 09:09:52.085: [INFO] BookmarksSnapshot Shutdown total=18 bar=18 other=0 mobile=0 showBar=0 showBarNTP=1
